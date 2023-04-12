@@ -1,0 +1,21 @@
+###
+GET http://localhost:3001/
+
+
+###
+GET http://localhost:3001/api/note
+
+###
+
+POST http://localhost:3001/api/note
+Content-Type: application/json
+
+{
+    "text": "hello this is adrian"
+}
+
+###
+
+DELETE http://localhost:3001/api/note/0
+
+
